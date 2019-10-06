@@ -20,6 +20,6 @@ sudo apt install texlive-math-extra
 
 ## Convert markdown to pdf or epub
 
-Checkout the scala submodule to the version you want and run the `convert.sh` script. Then you should get all the pdf files under the `pdf` folder and the same all the epub files under the `epub` folder. If you get pdf convert error during the conversion, the following answer may help:
+Checkout the scala submodule to the version you want and run the `convert.sh` script. Then you should get all the pdf files under the `pdf` folder and the same all the epub files under the `epub` folder. Additionally the merge.epub file contains all the contents of the other epub files in the `epub` folder. If you get pdf convert error during the conversion, the following answer may help:
 https://tex.stackexchange.com/questions/428975/multiple-alignment-inside-cases-environment.
 
